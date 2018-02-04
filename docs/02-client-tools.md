@@ -11,16 +11,7 @@ Download and install `cfssl` and `cfssljson` from the [cfssl repository](https:/
 ### OS X
 
 ```shell
-curl -o cfssl https://pkg.cfssl.org/R1.2/cfssl_darwin-amd64
-curl -o cfssljson https://pkg.cfssl.org/R1.2/cfssljson_darwin-amd64
-```
-
-```shell
-chmod +x cfssl cfssljson
-```
-
-```shell
-sudo mv cfssl cfssljson /usr/local/bin/
+brew install cfssl
 ```
 
 ### Linux
@@ -93,15 +84,7 @@ The `kubectl` command line utility is used to interact with the Kubernetes API S
 ### OS X
 
 ```shell
-curl -o kubectl https://storage.googleapis.com/kubernetes-release/release/v1.8.0/bin/darwin/amd64/kubectl
-```
-
-```shell
-chmod +x kubectl
-```
-
-```shell
-sudo mv kubectl /usr/local/bin/
+brew install kubectl
 ```
 
 ### Linux
